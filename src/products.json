@@ -1,0 +1,23 @@
+[
+    {
+        "Title": "Apple Macbook Pro 16\"",
+        "Price": 2799,
+        "Description": "Профессиональный ноутбук с 16,2-дюймовым экраном Liquid Retina XDR (3456x2234, 120 Гц), оснащенный высокопроизводительными чипами Apple Silicon (M1/M2/M3/M4 Pro/Max). Характеризуется длительным временем автономной работы (до 21-22 часов), высокой графической мощностью, быстрым SSD и поддержкой портов Thunderbolt 4, HDMI, SDXC.",
+        "Discount": false,
+        "Cover": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111932_sp809-mbp16touch-silver-2019.jpeg"
+    },
+    {
+        "Title": "Apple Macbook Pro 13\"",
+        "Price": 1299,
+        "Description": "Компактный и мощный ноутбук с дисплеем Retina 13.3\", работающий на чипах Apple Silicon (M1/M2) или Intel. Модели M1/M2 отличаются высокой производительностью, энергоэффективностью (до 17-20 часов работы), наличием Touch Bar, 8/16 ГБ ОЗУ и SSD 256/512 ГБ. Оптимален для профессиональной работы в дороге.",
+        "Discount": true,
+        "Cover": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111339_sp818-mbp13touch-space-select-202005.png"
+    },
+    {
+        "Title": "Apple iPhone 11",
+        "Price": 699,
+        "Description": "Сбалансированный смартфон 2019 года с 6,1-дюймовым дисплеем Liquid Retina HD, процессором A13 Bionic и двойной камерой 12 Мп. Он обеспечивает высокую производительность, поддержку Face ID и хорошую автономность, оставаясь актуальным вариантом. Доступен в версиях на 64/128/256 ГБ памяти.",
+        "Discount": true,
+        "Cover": "https://apple-com.ru/image/cache/catalog/p/11/iphone_11_b_2-578x411h.jpg.webp"
+    }
+]

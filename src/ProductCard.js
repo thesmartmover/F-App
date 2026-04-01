@@ -29,7 +29,12 @@ const styles = {
         fontFamily: 'sans-serif',
     },
     imageBox: {
-        maxWidth: '200px'
+        maxWidth: '200px',
+        minHeight: '200px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center'
+
     },
     image: {
         width: '100%'
@@ -38,7 +43,7 @@ const styles = {
         flex: '1',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly',
         padding: '15px 10px'
     },
         title: {
