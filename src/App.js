@@ -1,6 +1,6 @@
 import React from "react";
 
-import ProductCard from './ProductCard';
+import ProductsList from './ProductsList';
 
 class App extends React.Component {
     render() {
@@ -8,7 +8,7 @@ class App extends React.Component {
             <>
                 <header style={styles.header}>tnShop</header>
                 <main style={styles.main}>
-                    <ProductCard product={this.props.product} />
+                    <ProductsList products={this.props.products} />
                 </main>
                 <footer style={styles.footer}>
                     &copy; {new Date().getFullYear()}, @thesmartmoover
