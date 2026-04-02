@@ -1,9 +1,14 @@
 import React from "react";
 
+import DiscountModal from "./DiscountModal";
+
 class ProductCard extends React.Component {
     render() {
+        if (!this.props.product)
+            return <div>Empty product</div>;
+
         const { 
-            product: { Title, Price, Cover, Description }
+            product: { Title, Price, Cover, Description, Discount }
         } = this.props;
 
         return (
@@ -14,7 +19,14 @@ class ProductCard extends React.Component {
                 <div style={styles.cardBody}>
                     <div style={styles.title}>{Title}</div>
                     <div>{Description}</div>
-                    <div style={styles.price}> ${Price}</div>
+                    <div style={styles.price}> 
+                        {
+                            Discount ?
+                            <><s>${Price}</s> ${Math.floor(Price * 0.95)}</>
+                            : <>${Price}</>
+                        }
+                    </div>
+                    <DiscountModal />
                 </div>
             </div>
         )
